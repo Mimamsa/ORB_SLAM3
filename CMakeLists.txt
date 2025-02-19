@@ -142,6 +142,8 @@ add_executable(gopro_slam
 Examples/Monocular-Inertial/gopro_slam.cc)
 target_link_libraries(gopro_slam ${PROJECT_NAME})
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
+
 add_executable(mono_gopro_rt
 Examples/Monocular/mono_gopro_rt.cc)
 target_link_libraries(mono_gopro_rt ${PROJECT_NAME})
