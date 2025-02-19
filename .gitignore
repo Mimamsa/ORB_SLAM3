@@ -20,6 +20,7 @@ Examples/Monocular/mono_kitti
 Examples/Monocular/mono_tum
 Examples/Monocular/mono_tum_vi
 Examples/Monocular/mono_realsense_t265
+Examples/Monocular/mono_gopro_rt
 
 Examples/Stereo/stereo_euroc
 Examples/Stereo/stereo_kitti
